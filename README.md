@@ -23,6 +23,9 @@ The program is implemented as a Web-based application. You can find a friendly G
 - The program begins dividing the instruction word into fields and begins to differentiate between them using fileds like (Opcode, funct2, funct3, funct4 and funct7). 
 - Finally, the program outputs a certain command based on the specific case it reaches in the switch case at the end of the call tree.
 
+# Project Flow:
+The program begins by taking the name of the testcase file from the user and validating the name of the file. Afterwards, the program front end calls the backend code using Crow Framework passing the input given by the user in the textbox to the framework. The backend is responsible for running the 
+
 # Limitations:
 The program is limited only to 8KB of memory according to what is stated in the handout.
 
