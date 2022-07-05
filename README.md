@@ -24,7 +24,7 @@ The program is implemented as a Web-based application. You can find a friendly G
 - Finally, the program outputs a certain command based on the specific case it reaches in the switch case at the end of the call tree.
 
 # Project Flow:
-The program begins by taking the name of the testcase file from the user and validating the name of the file. Afterwards, the program front end calls the backend code using Crow Framework passing the input given by the user in the textbox to the framework. The backend is responsible for running the 
+The program begins by taking the name of the testcase file from the user and validating the name of the file. Afterwards, the program front end calls the backend code using Crow Framework passing the input given by the user in the textbox to the framework. The backend is responsible for running the implemented C++ code which return the result in a .txt file. The backend reads this file putting the characters in one string and displays that string in the pop up <div> that appears when the user presses the "Show" button on the website homepage.
 
 # Limitations:
 The program is limited only to 8KB of memory according to what is stated in the handout.
