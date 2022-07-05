@@ -1,5 +1,9 @@
 This project represents a trial to implement a RISC-V disassemble.
 
+# How to use:
+If you want to run it online and open it from your mobile phone, the required statement to run it is (Ngrok http 18080)
+The program is implemented as a Web-based application. You can find a friendly Graphical User interface that is easy to interact with. Simply, you can enter the name of the binary file you want to test in the shown text box. Afterwards, you press the "Submit" button to submit the results to the program. Finally, to show the results, you can press the "Show" button.
+![alt text](https://i.imgur.com/xOfZLbo.png)
 # Implementation:
 - It depends mainly on reveiving a .bin file with the main function parameters. 
 - Afterwards, the program keeps taking input and loading half words while checking whether the current instruction is a half word or not. This is done using the different in the first two bits of the two types of instructions (C, 32 bit). 
