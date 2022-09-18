@@ -1,4 +1,4 @@
-This project represents a trial to implement a RISC-V disassemble.
+This project represents a trial to implement a RISC-V disassembler.
 
 # How to use:
 If you want to run it online and open it from your mobile phone, the required statement to run it is (Ngrok http 18080)
