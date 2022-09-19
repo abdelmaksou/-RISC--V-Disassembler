@@ -31,8 +31,3 @@ The program is limited only to 8KB of memory according to what is stated in the 
 
 # Known Issues:
 There are no issues.
-
-# Contributions:
-- Ibrahim Gohar
-- Moneer Maged
-- Abdelaaty Rehab
